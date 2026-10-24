@@ -1,0 +1,25 @@
+# generated data (re-create with the notebook)
+data/*.jsonl
+!data/review.jsonl
+data/_meta/
+data/raw_orders/*
+!data/raw_orders/README.md
+!data/raw_orders/manifest.csv
+!data/raw_orders/SOURCE.md
+
+# run outputs: keep the small, useful ones
+runs/*
+!runs/results.md
+!runs/results.json
+!runs/train_loss.png
+!runs/screenshots/
+
+# python
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+.env
+
+# never commit keys
+*.key

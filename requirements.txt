@@ -1,0 +1,6 @@
+pypdf>=4
+google-genai>=1.0
+pytesseract
+pdf2image
+# training (Colab GPU): installed by the notebook
+# unsloth
